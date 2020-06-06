@@ -41,3 +41,11 @@ cacheSolve <- function(x, ...) {
         x$set_inv(inv)
         inv
 }
+
+
+
+# example input:
+# x <- matrix(c(2, 345, 12, 786, 6,67, 3, 2, 89), nrow = 3, ncol = 3)
+# x
+# a <- makeCacheMatrix(x)
+# cacheSolve(a)
